@@ -3,6 +3,3 @@
 /checkouts
 /.nrepl-port
 .nrepl-*
-pom.xml
-*.jar
-*.class
