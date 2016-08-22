@@ -10,7 +10,7 @@ or install modules local and add to `path-atomizer`
 ## Usage
 Require dependencies :
 ```clojure
-  (set-env! :dependencies '[[zaeny/boot-atomizer "0.1.0"]])
+  (set-env! :dependencies '[[zaeny/boot-atomizer "0.1.1"]])
   ;and task
   (require '[zaeny/boot-atomizer :refer [atomizer])
 ```

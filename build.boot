@@ -7,7 +7,7 @@
 
 ; (require '[boot.git :refer [last-commit]])
 
-(def +version+ "0.1.0")
+(def +version+ "0.1.1")
 
 (task-options!
   push {:repo "clojars"}
