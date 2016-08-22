@@ -1,21 +1,22 @@
 # Boot-Atomizer
-[Boot](http://boot-clj.com) Task for [Atomizer](http://acss.io)
 [![Clojars Project](http://clojars.org/zaeny/boot-atomizer/latest-version.svg)](http://clojars.org/zaeny/boot-atomizer)
+
+[Boot](http://boot-clj.com) Task for [Atomizer](http://acss.io) to compile atomic css
 
 ## Installation
 `npm install -g atomizer`
 or install modules local and add to `path-atomizer`
 
 ## Usage
+Require dependencies :
 ```clojure
   (set-env! :dependencies '[[zaeny/boot-atomizer "0.1.0"]])
   ;and task
   (require '[zaeny/boot-atomizer :refer [atomizer])
 ```
 
-**Set task before cljs**
+Set task before cljs :
 ```clojure
-
 (deftask dev []
   (comp
     ; (serve)
