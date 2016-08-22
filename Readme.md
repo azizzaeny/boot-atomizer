@@ -37,6 +37,6 @@ Set task before cljs :
    p path-atomizer PATH str "atomizer exec location default global"]
 ```
 
-** Example usage from terminal: **
+** Example usage from terminal:**
 `boot atomizer -o main.css -r src/ `
 Atomizer will try to parse from src directory
