@@ -1,11 +1,9 @@
 (set-env!
-  :resource-patsh #{"src"}
+  :resource-paths #{"src"}
 
   :repositories [["clojars" {:url "https://clojars.org/repo/"
                              :username (System/getenv "CLOJARS_USER")
                              :password (System/getenv "CLOJARS_PASS")}]])
-
-; (require '[boot.git :refer [last-commit]])
 
 (def +version+ "0.1.1")
 
@@ -28,9 +26,3 @@
  (comp
    (build)
    (push :repo "clojars")))
-
-; (deftask dev []
-;   (comp
-;     (watch)
-;     (build)
-;     (repl :server true))))
