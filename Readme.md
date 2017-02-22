@@ -42,5 +42,6 @@ Set task before cljs :
 Atomizer will try to parse from src directory
 
 
-## Contribute
-- feel free to changes.. maybe create our own atomizer regex processor instead rely on external binary
+
+### Contribute
+- Feel free to make changes, it's posible to create own atomizer parser using macros or pure clojure, instead relying on external binary
