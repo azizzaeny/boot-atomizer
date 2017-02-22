@@ -40,3 +40,7 @@ Set task before cljs :
 **Example usage from terminal:**
 `boot atomizer -o main.css -r src/ `
 Atomizer will try to parse from src directory
+
+
+## Contribute
+- feel free to changes.. maybe create our own atomizer regex processor instead rely on external binary
