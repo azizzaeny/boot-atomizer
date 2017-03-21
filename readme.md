@@ -6,15 +6,15 @@ Atomic CSS is a another way to write css, Its feels like functional css... feels
 
 Snapshot:
 ```cljs
+;Where  ;T-> top  ;p-> padding
+
 (defn component []
   [:div {:class "T(10px) P(1.6em) Translate(50%)"])
 
-;where  ;T-> top  ;p-> padding
-
-; Compose
+; Compose All The things!
 (defn component []
   (let [space "P(1.6em)"
-        move "T(10px) Translate(50%)"]
+        move  "T(10px) Translate(50%)"]
     [:div {:class (str space move)}]))
 
 ```
