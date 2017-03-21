@@ -114,7 +114,7 @@ Usage: boot atomizer [options]
 
 ```
 
-**See Others whom choose in this path**     
+**See Others who choose in this path**     
 You see.. Nothing wrong with it... We are All Trying... Hoping tommorow we find better way...
 
 - Clojure way    
