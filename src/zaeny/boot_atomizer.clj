@@ -25,3 +25,10 @@
       (-> fileset
           (boot/add-resource tmp-dir)
           boot/commit!))))
+
+;try parse from macro
+;{:spec
+; :style}
+(comment
+ (regex-parser)
+ (set-style!))
