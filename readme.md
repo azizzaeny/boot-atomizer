@@ -1,12 +1,8 @@
 ## Boot-Atomizer
 A task for [boot-clj](http://boot-clj.com)    
-
 [![Clojars Project](http://clojars.org/zaeny/boot-atomizer/latest-version.svg)](http://clojars.org/zaeny/boot-atomizer)
 
-Atomic CSS is a another way to write css, its feel like functional css... feel great with figwheel...    
-
-- Atomic CSS on steroids - [https://www.youtube.com/watch?v=988XpUvzslE](https://www.youtube.com/watch?v=988XpUvzslE)
-- What is Atomic CSS? Organizing CSS - [https://www.youtube.com/watch?v=NRqbLuKKOlE](https://www.youtube.com/watch?v=NRqbLuKKOlE)    
+Atomic CSS is a another way to write css, Its feel like functional css... Feel great with figwheel...    
 
 Snapshot:
 ```cljs
@@ -22,7 +18,11 @@ Snapshot:
     [:div {:class (str space move)}]))
 
 ```
+
 See rational at [acss.io/thinking-in-atomic](https://acss.io/thinking-in-atomic.html)
+- [Atomic CSS on steroids](https://www.youtube.com/watch?v=988XpUvzslE)
+- [What is Atomic CSS? Organizing CSS](https://www.youtube.com/watch?v=NRqbLuKKOlE)    
+
 
 ### Contribution and ahead challanges.
 1. feel free to make changes.
