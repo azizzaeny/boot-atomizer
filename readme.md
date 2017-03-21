@@ -118,4 +118,4 @@ What do you think ? do you have something ?
 
 or
 
-[Learn form others in this resistences]()
+[Learn form others in this resistences](https://github.com/azizzaeny/boot-atomizer/blob/master/readme.md)
