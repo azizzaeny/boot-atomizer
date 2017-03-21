@@ -2,7 +2,7 @@
 A task for [boot-clj](http://boot-clj.com)    
 [![Clojars Project](http://clojars.org/zaeny/boot-atomizer/latest-version.svg)](http://clojars.org/zaeny/boot-atomizer)
 
-Atomic CSS is a another way to write css, Its feel like functional css... Feel great with figwheel...    
+Atomic CSS is a another way to write css, Its feels like functional css... feels great with figwheel...    
 
 Snapshot:
 ```cljs
