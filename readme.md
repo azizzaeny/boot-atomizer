@@ -1,5 +1,6 @@
 ## Boot-Atomizer
-A task for [boot-clj](http://boot-clj.com) for writing css atomic way     
+A task for [boot-clj](http://boot-clj.com)    
+
 [![Clojars Project](http://clojars.org/zaeny/boot-atomizer/latest-version.svg)](http://clojars.org/zaeny/boot-atomizer)
 
 Atomic CSS is a another way to write css, its feel like functional css... feel great with figwheel...    
