@@ -24,7 +24,7 @@ See rational at [acss.io/thinking-in-atomic](https://acss.io/thinking-in-atomic.
 - [What is Atomic CSS? Organizing CSS](https://www.youtube.com/watch?v=NRqbLuKKOlE)    
 
 
-### Contribution and ahead challanges.
+### # Contribution and ahead challanges.
 1. feel free to make changes.
 2. it's posible to create own atomizer parser using macros or pure clojure, instead relying on external binary...
    and use [noprompt/garden](https://github.com/noprompt/garden) to parse css
@@ -50,7 +50,7 @@ clojure style!:
 
 4. What do you think ? do you have something ?
 
-### STEP GUIDE
+###  # STEP GUIDE
 #### 1.Installation
 Sadly we still use tools from outside.. but its ok, lets get a shot...   
 
@@ -91,7 +91,7 @@ your resources/public/index.html
 <link rel="stylesheet" href="main.css">
 ```
 
-### Options
+### # Options
 
 _find-class_
 not tobe confused by classes things.. it just term used in atomizer
@@ -101,7 +101,7 @@ basicly watch and parse text in what directory. to distinct with other boot-cljs
 _path-atomizer_
 where atomizer bin located  see [https://github.com/acss-io/atomizer](https://github.com/acss-io/atomizer)
 
-### CLI
+### # CLI
 ```
 boot atomizer -o main.css -r src/
 
@@ -114,7 +114,7 @@ Usage: boot atomizer [options]
 
 ```
 
-**See Others who choose in this path**     
+**See others who choose in this path**     
 
   [stylish](https://github.com/guilherme-teodoro/stylish), [om-css](https://github.com/ladderlife/om-css/), [garden](https://github.com/noprompt/garden), [boot-garden](https://github.com/martinklepsch/boot-garden), [forest](https://github.com/mhallin/forest), [shadow](https://github.com/thheller/shadow/wiki/shadow.markup), [greenhouse](https://github.com/thinktopic/greenhouse), [mesh](https://github.com/facjure/mesh),
   [atomizer-js](https://github.com/acss-io/atomizer), [grunt-atomizer](https://github.com/acss-io/grunt-atomizer),  [gulp-atomizer](https://github.com/acss-io/gulp-atomizer), [metalsmith-atomizer](https://github.com/tests-always-included/metalsmith-atomizer), [webpack-atomizer-loader](https://github.com/acss-io/webpack-atomizer-loader),
