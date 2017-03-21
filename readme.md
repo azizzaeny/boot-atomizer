@@ -1,4 +1,4 @@
-# Boot-Atomizer
+## Boot-Atomizer
 [![Clojars Project](http://clojars.org/zaeny/boot-atomizer/latest-version.svg)](http://clojars.org/zaeny/boot-atomizer)
 
 [Boot](http://boot-clj.com) Task for [Atomizer](http://acss.io) to compile atomic css      
@@ -9,9 +9,7 @@ Snapshot:
 (defn component []
   [:div {:class "T(10px) P(1.6em) Translate(50%)"])
 
-;where
-  ;T-> top
-  ;p-> padding
+;where  ;T-> top  ;p-> padding
 
 ; Compose
 (defn component []
@@ -46,10 +44,10 @@ clojure style!:
 [:button {:"(t,10px) (c,#333)"} ]
 ```
 
-What do you think ?
+4. What do you think ? do you have something ?
 
-## STEP GUIDE
-### 1.Installation
+### STEP GUIDE
+#### 1.Installation
 Sadly we still use tools from outside.. but its ok, lets get a shot...   
 
 
@@ -57,29 +55,30 @@ Sadly we still use tools from outside.. but its ok, lets get a shot...
 2. or install modules localy  `npm install atomizer`
 3. and add to `path-atomizer` manually. see below.
 
-### 2. pull from clojars and use it in build.boot
+#### 2. pull from clojars and use it in build.boot
 
 Require dependencies :
+
 ```clojure
-  (set-env! :dependencies '[[zaeny/boot-atomizer "0.1.1"]])
+(set-env! :dependencies '[[zaeny/boot-atomizer "0.1.1"]])
 
-  (require '[zaeny/boot-atomizer :refer [atomizer])
-...
+(require '[zaeny/boot-atomizer :refer [atomizer])
 ```
-
-Set task before cljs or after, because output css :
-
+add task atomizer :
 ```clojure
 (deftask dev []
+  (comp (watch) (atomizer))
+
+; robust way
+(deftask dev []  
   (comp
-    ; (serve)
+   ;(serve)
     (watch)
     (atomizer :find-class "src"
               :output-to "main.css"
               :path-atomizer "node_modules/.bin/atomizer")
-    ; (reload :on-jsload 'app.core/on-jsload
-    ;         :cljs-asset-path ".")
-    ; (cljs-repl)
+  ; (reload :cljs-asset-path ".")
+  ; (cljs-repl)
     (cljs :source-map true)))
 ```
 
@@ -88,12 +87,36 @@ your resources/public/index.html
 <link rel="stylesheet" href="main.css">
 ```
 
-## Options for command-line interfaces
+### Options
+
+_find-class_
+not tobe confused by classes things.. it just term used in acss.io
+basicly watch and parse text in what directory. to distinct with other boot-cljs compile in `set-env!`
+```clojure {:find-class "src-cljs/"} ```
+
+_path-atomizer_
+where atomizer bin located  see [https://github.com/acss-io/atomizer](https://github.com/acss-io/atomizer)
+
+### CLI
 ```
-  [o output-to PATH str "output css"
-   r find-class PATH str "findClassName from source directory "
-   p path-atomizer PATH str "atomizer exec location default global"]
+boot atomizer -o main.css -r src/
+
+Usage: boot atomizer [options]
+    Options:
+
+    -o  --output-to     Where to Output CSS [path str]
+    -r  --find-class    findClassName or Parse Blob Text from source-directory [path str]
+    -p  --path-atomizer atomizer bin  location [default global path]
+
 ```
-Example usage from terminal:
-`boot atomizer -o main.css -r src/ `
-Atomizer will try to parse from src directory
+
+### Others Tools :
+- atomizer  : [atomizer-js](https://github.com/acss-io/atomizer)
+- grunt     : [grunt-atomizer](https://github.com/acss-io/grunt-atomizer)
+- gulp      : [gulp-atomizer](https://github.com/acss-io/gulp-atomizer)
+- metalsmith: [metalsmith-atomizer](https://github.com/tests-always-included/metalsmith-atomizer)
+- webpack   : [webpack-atomizer-loader](https://github.com/acss-io/webpack-atomizer-loader)
+
+### Video
+Atomic CSS on steroids - [https://www.youtube.com/watch?v=988XpUvzslE](https://www.youtube.com/watch?v=988XpUvzslE)
+What is Atomic CSS? Organizing CSS - [https://www.youtube.com/watch?v=NRqbLuKKOlE](https://www.youtube.com/watch?v=NRqbLuKKOlE)
