@@ -116,16 +116,8 @@ Usage: boot atomizer [options]
 
 ### Others in this path
 you see we are all trying...   
-- atomizer group
-  - [atomizer-js](https://github.com/acss-io/atomizer)
-  - [grunt-atomizer](https://github.com/acss-io/grunt-atomizer)
-  - [gulp-atomizer](https://github.com/acss-io/gulp-atomizer)
-  - [metalsmith-atomizer](https://github.com/tests-always-included/metalsmith-atomizer)
-  - [webpack-atomizer-loader](https://github.com/acss-io/webpack-atomizer-loader)
-- [om-css](https://github.com/ladderlife/om-css/)
-- [garden](https://github.com/noprompt/garden)
-- [boot-garden](https://github.com/martinklepsch/boot-garden)
-- [forest](https://github.com/mhallin/forest)
-- [shadow](https://github.com/thheller/shadow/wiki/shadow.markup)
-- [greenhouse](https://github.com/thinktopic/greenhouse)
-- [mesh](https://github.com/facjure/mesh)
+- Atomic way
+  [atomizer-js](https://github.com/acss-io/atomizer), [grunt-atomizer](https://github.com/acss-io/grunt-atomizer),  [gulp-atomizer](https://github.com/acss-io/gulp-atomizer) [metalsmith-atomizer](https://github.com/tests-always-included/metalsmith-atomizer) [webpack-atomizer-loader](https://github.com/acss-io/webpack-atomizer-loader)
+- Webpack, css-in-js, css-modules, postCss
+- Clojure way
+  [stylish](https://github.com/guilherme-teodoro/stylish), [om-css](https://github.com/ladderlife/om-css/), [garden](https://github.com/noprompt/garden), [boot-garden](https://github.com/martinklepsch/boot-garden), [forest](https://github.com/mhallin/forest), [shadow](https://github.com/thheller/shadow/wiki/shadow.markup), [greenhouse](https://github.com/thinktopic/greenhouse), [mesh](https://github.com/facjure/mesh), 
