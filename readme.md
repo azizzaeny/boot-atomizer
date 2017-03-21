@@ -22,36 +22,30 @@ Snapshot:
 ```
 See rational at [acss.io/thinking-in-atomic](https://acss.io/thinking-in-atomic.html)
 
-### Contribution and ahead problem.
+### Contribution and ahead challanges.
 1. Feel free to make changes,
 2. it's posible to create own atomizer parser using macros or pure clojure, instead relying on external binary...
+   and use [noprompt/garden](https://github.com/noprompt/garden) to parse css
+3. other options dont output css but send it down and replace innerText `<style></style>`
 3. what if write other style such as:
 
-separator comma :
-```cljs  
-[:button {:"t,10px c,#333"} ]
-
-```
 underscore :
 ```cljs  
 [:button {:"t_10px c_#333"} ]
 ```
-
 dashed style :
 ```cljs  
 [:button {:"t-10px c-#333"} ]
 ```
-
 js function style:
 ```cljs  
 [:button {:"t(10px) c(#333)"} ]
 ```
-
 clojure style!:
 ```cljs  
 [:button {:"(t,10px) (c,#333)"} ]
-
 ```
+
 What do you think ?
 
 ## STEP GUIDE
