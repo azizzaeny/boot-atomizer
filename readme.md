@@ -29,23 +29,25 @@ See rational at [acss.io/thinking-in-atomic](https://acss.io/thinking-in-atomic.
 2. it's posible to create own atomizer parser using macros or pure clojure, instead relying on external binary...
    and use [noprompt/garden](https://github.com/noprompt/garden) to parse css
 3. other options dont output css but send it down and replace innerText `<style></style>`
-3. what if write other style such as:
+4. shorthand property for static values `inline block bold center capitalize nowrap` dynamic values such as `z(20) z(a)` for z-index
+5. use macros to combine related  dynamic values `size(20,5/2)` expanded to `w(20) h(5/2)`
+5. what if write other style such as:
 
 underscore :
 ```cljs  
-[:button {:"t_10px c_#333"} ]
+[:button {:class "t_10px c_#333"} ]
 ```
 dashed style :
 ```cljs  
-[:button {:"t-10px c-#333"} ]
+[:button {:class "t-10px c-#333"} ]
 ```
 js function style:
 ```cljs  
-[:button {:"t(10px) c(#333)"} ]
+[:button {:class "t(10px) c(#333)"} ]
 ```
 clojure style!:
 ```cljs  
-[:button {:"(t,10px) (c,#333)"} ]
+[:button {:class "(t,10px) (c,#333)"} ]
 ```
 
 4. What do you think ? do you have something ?
