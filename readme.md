@@ -4,6 +4,9 @@
 [Boot](http://boot-clj.com) Task for [Atomizer](http://acss.io) to compile atomic css      
 Atomic CSS is a another way to write css, its feel like functional css... feel great with figwheel...    
 
+- Atomic CSS on steroids - [https://www.youtube.com/watch?v=988XpUvzslE](https://www.youtube.com/watch?v=988XpUvzslE)
+- What is Atomic CSS? Organizing CSS - [https://www.youtube.com/watch?v=NRqbLuKKOlE](https://www.youtube.com/watch?v=NRqbLuKKOlE)    
+
 Snapshot:
 ```cljs
 (defn component []
@@ -110,13 +113,8 @@ Usage: boot atomizer [options]
 
 ```
 
-### Video
-- Atomic CSS on steroids - [https://www.youtube.com/watch?v=988XpUvzslE](https://www.youtube.com/watch?v=988XpUvzslE)
-- What is Atomic CSS? Organizing CSS - [https://www.youtube.com/watch?v=NRqbLuKKOlE](https://www.youtube.com/watch?v=NRqbLuKKOlE)    
 
-
-#### How about others in this resistence
-ahh.. You see.. we are all trying...
+### about others in this resistence
 
 - Clojure way     
   [stylish](https://github.com/guilherme-teodoro/stylish), [om-css](https://github.com/ladderlife/om-css/), [garden](https://github.com/noprompt/garden), [boot-garden](https://github.com/martinklepsch/boot-garden), [forest](https://github.com/mhallin/forest), [shadow](https://github.com/thheller/shadow/wiki/shadow.markup), [greenhouse](https://github.com/thinktopic/greenhouse), [mesh](https://github.com/facjure/mesh),
@@ -126,3 +124,5 @@ ahh.. You see.. we are all trying...
 
 - Webpack & css-in-js way      
   [github/search/css-in-js](https://github.com/search?q=topic%3Acss-in-js&type=Repositories), [css-modules-in-cljs](https://github.com/dhruvbhatia/clojurescript-css-modules-demo)
+
+You see.. we are all trying...
