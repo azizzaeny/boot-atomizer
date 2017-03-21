@@ -114,7 +114,8 @@ Usage: boot atomizer [options]
 
 ```
 
-** See Others in this path **
+**See Others to choose in this path**
+You see.. Nothing wrong with it... We are All Trying... Hoping tommorow we find better way...
 
 - Clojure way    
   [stylish](https://github.com/guilherme-teodoro/stylish), [om-css](https://github.com/ladderlife/om-css/), [garden](https://github.com/noprompt/garden), [boot-garden](https://github.com/martinklepsch/boot-garden), [forest](https://github.com/mhallin/forest), [shadow](https://github.com/thheller/shadow/wiki/shadow.markup), [greenhouse](https://github.com/thinktopic/greenhouse), [mesh](https://github.com/facjure/mesh),
@@ -126,5 +127,3 @@ Usage: boot atomizer [options]
   [styletron](https://github.com/rtsao/styletron), [aphrodite](https://github.com/Khan/aphrodite), [tachyons](https://github.com/tachyons-css/tachyons), [csspurge](http://www.csspurge.com/), [basscss](http://basscss.com/)
 
 - css-in-js approach [github/search](https://github.com/search?q=topic%3Acss-in-js&type=Repositories)
-
-You see.. Nothing wrong with it... We are All Trying... Hoping tommorow we find better way...
