@@ -21,7 +21,7 @@ Snapshot:
 See rational at [acss.io/thinking-in-atomic](https://acss.io/thinking-in-atomic.html)
 
 ### Contribution and ahead challanges.
-1. Feel free to make changes,
+1. feel free to make changes.
 2. it's posible to create own atomizer parser using macros or pure clojure, instead relying on external binary...
    and use [noprompt/garden](https://github.com/noprompt/garden) to parse css
 3. other options dont output css but send it down and replace innerText `<style></style>`
@@ -90,7 +90,7 @@ your resources/public/index.html
 ### Options
 
 _find-class_
-not tobe confused by classes things.. it just term used in acss.io
+not tobe confused by classes things.. it just term used in atomizer
 basicly watch and parse text in what directory. to distinct with other boot-cljs compile in `set-env!`
 ```clojure {:find-class "src-cljs/"} ```
 
@@ -118,5 +118,5 @@ Usage: boot atomizer [options]
 - webpack   : [webpack-atomizer-loader](https://github.com/acss-io/webpack-atomizer-loader)
 
 ### Video
-Atomic CSS on steroids - [https://www.youtube.com/watch?v=988XpUvzslE](https://www.youtube.com/watch?v=988XpUvzslE)
-What is Atomic CSS? Organizing CSS - [https://www.youtube.com/watch?v=NRqbLuKKOlE](https://www.youtube.com/watch?v=NRqbLuKKOlE)
+- Atomic CSS on steroids - [https://www.youtube.com/watch?v=988XpUvzslE](https://www.youtube.com/watch?v=988XpUvzslE)
+- What is Atomic CSS? Organizing CSS - [https://www.youtube.com/watch?v=NRqbLuKKOlE](https://www.youtube.com/watch?v=NRqbLuKKOlE)
