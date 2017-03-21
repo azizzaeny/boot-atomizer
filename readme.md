@@ -31,7 +31,10 @@ See rational at [acss.io/thinking-in-atomic](https://acss.io/thinking-in-atomic.
 3. other options dont output css but send it down and replace innerText `<style></style>`
 3. what if write other style such as:
 
-underscore : ```cljs  [:button {:"t_10px c_#333"} ]```
+underscore :
+```cljs  
+[:button {:"t_10px c_#333"} ]
+```
 dashed style :
 ```cljs  
 [:button {:"t-10px c-#333"} ]
