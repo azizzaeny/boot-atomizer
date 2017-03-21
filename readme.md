@@ -24,34 +24,6 @@ See rational at [acss.io/thinking-in-atomic](https://acss.io/thinking-in-atomic.
 - [What is Atomic CSS? Organizing CSS](https://www.youtube.com/watch?v=NRqbLuKKOlE)    
 
 
-### # Contribution and ahead challanges.
-1. feel free to make changes.
-2. it's posible to create own atomizer parser using macros or pure clojure, instead relying on external binary...
-   and use [noprompt/garden](https://github.com/noprompt/garden) to parse css
-3. other options dont output css but send it down and replace innerText `<style></style>`
-4. shorthand property for static values `inline block bold center capitalize nowrap` dynamic values such as `z(20) z(a)` for z-index
-5. use macros to combine related  dynamic values `size(20,5/2)` expanded to `w(20) h(5/2)`
-5. what if write other style such as:
-
-underscore :
-```cljs  
-[:button {:class "t_10px c_#333"} ]
-```
-dashed style :
-```cljs  
-[:button {:class "t-10px c-#333"} ]
-```
-js function style:
-```cljs  
-[:button {:class "t(10px) c(#333)"} ]
-```
-clojure style!:
-```cljs  
-[:button {:class "(t,10px) (c,#333)"} ]
-```
-
-4. What do you think ? do you have something ?
-
 ###  # STEP GUIDE
 #### 1.Installation
 Sadly we still use tools from outside.. but its ok, lets get a shot...   
@@ -116,8 +88,36 @@ Usage: boot atomizer [options]
 
 ```
 
-See others in this path    
+### # Contribution and ahead challanges.
+1. feel free to make changes.
+2. it's posible to create own atomizer parser using macros or pure clojure, instead relying on external binary...
+   and use [noprompt/garden](https://github.com/noprompt/garden) to parse css
+3. other options dont output css but send it down and replace innerText `<style></style>`
+4. shorthand property for static values `inline block bold center capitalize nowrap` dynamic values such as `z(20) z(a)` for z-index
+5. use macros to combine related  dynamic values `size(20,5/2)` expanded to `w(20) h(5/2)`
+6. what if write parser in other style such as:
 
+underscore :
+```cljs  
+[:button {:class "t_10px c_#333"} ]
+```
+dashed style :
+```cljs  
+[:button {:class "t-10px c-#333"} ]
+```
+js function style:
+```cljs  
+[:button {:class "t(10px) c(#333)"} ]
+```
+clojure style!:
+```cljs  
+[:button {:class "(t,10px) (c,#333)"} ]
+```
+
+What do you think ? do you have something ?
+
+
+others in this path
   [stylish](https://github.com/guilherme-teodoro/stylish), [om-css](https://github.com/ladderlife/om-css/), [garden](https://github.com/noprompt/garden), [boot-garden](https://github.com/martinklepsch/boot-garden), [forest](https://github.com/mhallin/forest), [shadow](https://github.com/thheller/shadow/wiki/shadow.markup), [greenhouse](https://github.com/thinktopic/greenhouse), [mesh](https://github.com/facjure/mesh),
   [atomizer-js](https://github.com/acss-io/atomizer), [grunt-atomizer](https://github.com/acss-io/grunt-atomizer),  [gulp-atomizer](https://github.com/acss-io/gulp-atomizer), [metalsmith-atomizer](https://github.com/tests-always-included/metalsmith-atomizer), [webpack-atomizer-loader](https://github.com/acss-io/webpack-atomizer-loader),
   [styletron](https://github.com/rtsao/styletron), [aphrodite](https://github.com/Khan/aphrodite), [tachyons](https://github.com/tachyons-css/tachyons), [csspurge](http://www.csspurge.com/), [basscss](http://basscss.com/)
