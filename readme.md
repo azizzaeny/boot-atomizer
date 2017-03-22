@@ -93,7 +93,7 @@ Usage: boot atomizer [options]
 2. it's posible to create own atomizer parser using macros or pure clojure, instead relying on external binary...
    and use [noprompt/garden](https://github.com/noprompt/garden) to parse css
 3. other options dont output css but send it down and replace innerText `<style></style>`
-4. shorthand property for static values `inline block bold center capitalize nowrap` dynamic values such as `z(20) z(a)` for z-index
+4. shorthand property for static values `inline block bold center capitalize nowrap` dynamic values such as `z(20) z(a)` for z-index auto keep using ()
 5. use macros to combine related  dynamic values `size(20,5/2)` expanded to `w(20) h(5/2)`
 6. what if write parser in other style such as:
 
