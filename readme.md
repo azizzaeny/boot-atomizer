@@ -115,7 +115,3 @@ clojure style!:
 ```
 
 What do you think ? do you have something ?
-
-or
-
-[Learn form others in this resistences](./learn-from-others.md)
