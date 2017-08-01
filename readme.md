@@ -20,9 +20,15 @@ Snapshot:
 ```
 
 See rational at [acss.io/thinking-in-atomic](https://acss.io/thinking-in-atomic.html)
-- [Atomic CSS on steroids](https://www.youtube.com/watch?v=988XpUvzslE)
-- [What is Atomic CSS? Organizing CSS](https://www.youtube.com/watch?v=NRqbLuKKOlE)    
-
+- [Atomic CSS on steroids](https://www.youtube.com/watch?v=988XpUvzslE) - Video 3.4min
+- [What is Atomic CSS? Organizing CSS](https://www.youtube.com/watch?v=NRqbLuKKOlE) - Video 6min
+- [Discussion: Lets-define-exactly-atomic-css](https://css-tricks.com/lets-define-exactly-atomic-css/)
+- [Discussion: How is tachyons different from inline styles?](https://github.com/tachyons-css/tachyons/issues/12)
+- [Tachyons](http://tachyons.io/)
+- [Expressive css](http://johnpolacek.github.io/expressive-css/)
+- [Basscss](http://basscss.com/)
+- [Nuclide](http://jkymarsh.com/nuclide/)
+- [Quantum CSS](https://github.com/grabr/quantum-css)
 
 ###  # STEP GUIDE
 #### 1.Installation
