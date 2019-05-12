@@ -18,9 +18,9 @@
         atomizer (or path-atomizer "atomizer")]
     ; call atomizer from shell
     (boot/with-pre-wrap fileset
-        (let [out-file (doto (io/file tmp-dir "main.css") io/make-parents)]
-          (util/info "Atomizer process %s" (.getName out-file))
-          (apply util/dosh [atomizer "-o" (.getPath out-file) "-R" find-source]))
+      (io/make-parents out)
+      (util/info "Atomizer process %s" (.getName out))
+      (apply util/dosh [atomizer "-o" (.getPath out) "-R" find-source])
       ;commit to fileset
       (-> fileset
           (boot/add-resource tmp-dir)
