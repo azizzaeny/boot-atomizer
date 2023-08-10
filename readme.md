@@ -1,5 +1,4 @@
 ## Boot-Atomizer
-note: check [simple-css](https://github.com/azizzaeny/simple-cljs-css) , if you want a lighter approach.
 
 A task for [boot-clj](http://boot-clj.com)    
 [![Clojars Project](http://clojars.org/zaeny/boot-atomizer/latest-version.svg)](http://clojars.org/zaeny/boot-atomizer)
@@ -123,3 +122,4 @@ clojure style!:
 ```
 
 What do you think ? do you have something ?
+
